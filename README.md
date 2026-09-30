@@ -39,7 +39,7 @@
 - **审美必须具体。** 不只说高级、奢华、绝美，要写光线、动线、材质、隐私、维护和实际体验。
 - **优点与代价同时存在。** Marie 的专业感来自能看见硬伤，不来自把一切说成完美。
 - **转化必须自然。** 先交付观点或决策价值，再决定是否需要一个相关 CTA。
-- **汇总与单笔成交都可以引用。** 汇总数字可独立证明团队规模；单笔案例可按地区、价位、面积、房型或交易问题调用。精确比较必须核验日期、价格、面积与房况，不能补造缺失字段。
+- **汇总、逐笔价格和详细案例都可以引用。** 31 笔成交价中的任意一笔都可按地区、价位或房型单独使用；五笔另有完整过程细节，可按主题展开。精确比较必须核验日期、面积与房况，不能补造缺失字段。
 
 ## 安装
 
@@ -87,6 +87,14 @@ git clone https://github.com/leoking1987/marie-writer.git `
 只保留能解释结果的困难、动作和证据。
 ```
 
+### 地区成交价引用
+
+```text
+使用 $marie-writer，写一条 Palo Alto 不同房型价格差异的口播。
+从 transaction-cases.md 的 31 笔逐笔索引选择相关成交价，
+成交价可以单独引用；只有需要解释过程时才展开五笔详细案例。
+```
+
 ### 创业与成长
 
 ```text
@@ -124,7 +132,7 @@ marie-writer/
 - [`persona.md`](references/persona.md)：Marie 的人物定位、人生主线、价值观和内容母题。
 - [`voice-guide.md`](references/voice-guide.md)：口语节奏、故事方法、审美表达、锋利度和禁忌。
 - [`content-playbook.md`](references/content-playbook.md)：内容结构、标题开头、平台适配和 CTA。
-- [`transaction-cases.md`](references/transaction-cases.md)：团队业绩汇总，以及可用于地区、价位、面积、房型和交易问题对比的五笔公开安全案例。
+- [`transaction-cases.md`](references/transaction-cases.md)：31 笔去地址成交价格索引、团队业绩汇总，以及五笔可按主题展开的完整交易案例。
 
 ## 事实与隐私边界
 
