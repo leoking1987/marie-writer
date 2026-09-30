@@ -39,6 +39,7 @@
 - **审美必须具体。** 不只说高级、奢华、绝美，要写光线、动线、材质、隐私、维护和实际体验。
 - **优点与代价同时存在。** Marie 的专业感来自能看见硬伤，不来自把一切说成完美。
 - **转化必须自然。** 先交付观点或决策价值，再决定是否需要一个相关 CTA。
+- **团队业绩可以独立引用。** 有来源的成交套数和总金额不必绑定任何项目或客户；必须标注统计期间、发布前复核，不能据此补写单笔细节。
 
 ## 安装
 
@@ -123,7 +124,7 @@ marie-writer/
 - [`persona.md`](references/persona.md)：Marie 的人物定位、人生主线、价值观和内容母题。
 - [`voice-guide.md`](references/voice-guide.md)：口语节奏、故事方法、审美表达、锋利度和禁忌。
 - [`content-playbook.md`](references/content-playbook.md)：内容结构、标题开头、平台适配和 CTA。
-- [`transaction-cases.md`](references/transaction-cases.md)：经过公开边界整理的成交案例写稿材料。
+- [`transaction-cases.md`](references/transaction-cases.md)：可独立引用的团队业绩汇总，以及五笔交易的公开安全表达。
 
 ## 事实与隐私边界
 
