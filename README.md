@@ -106,8 +106,9 @@ git clone https://github.com/leoking1987/marie-writer.git `
 
 ```text
 marie-writer/
-├── SKILL.md
+├── AGENTS.md
 ├── README.md
+├── SKILL.md
 ├── agents/
 │   └── openai.yaml
 └── references/
@@ -118,6 +119,7 @@ marie-writer/
 ```
 
 - [`SKILL.md`](SKILL.md)：工作流、事实边界、案例使用规则和交付标准。
+- [`AGENTS.md`](AGENTS.md)：仓库维护规则，以及 README 强制同步要求。
 - [`persona.md`](references/persona.md)：Marie 的人物定位、人生主线、价值观和内容母题。
 - [`voice-guide.md`](references/voice-guide.md)：口语节奏、故事方法、审美表达、锋利度和禁忌。
 - [`content-playbook.md`](references/content-playbook.md)：内容结构、标题开头、平台适配和 CTA。
@@ -142,6 +144,19 @@ marie-writer/
 4. `references/content-playbook.md` 与历史视频样本
 
 成交案例还必须遵守 `references/transaction-cases.md` 中的事实与公开边界。
+
+## 维护约定
+
+`README.md` 必须与 Skill 同步维护。凡是修改 `SKILL.md`、`agents/`、`references/`、`scripts/` 或 `assets/`，都必须在同一轮工作、同一个提交中：
+
+1. 更新 README 中受影响的能力说明、规则、目录和使用示例；
+2. 清理失效链接、过期路径和与当前 Skill 冲突的旧描述；
+3. 运行 Skill 校验并检查 README 的本地链接；
+4. 即使 README 正文无需改写，也要更新下方同步日期，留下已复核的记录。
+
+详细执行规则见 [`AGENTS.md`](AGENTS.md)。
+
+**最近同步：2026-09-30**
 
 ## 其他智能体
 
