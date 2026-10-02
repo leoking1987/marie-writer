@@ -1,4 +1,4 @@
 interface:
   display_name: "Marie Writer"
-  short_description: "以 Marie Wang 的故事、洞察与锋利口吻创作内容"
-  default_prompt: "使用 $marie-writer 为 Marie Wang 撰写一条真实、口语化且有洞察的视频脚本。"
+  short_description: "以 Marie Wang 的观察和自然反应讲清观众得失，创作真实而有感受的内容"
+  default_prompt: "使用 $marie-writer 为 Marie Wang 撰写视频脚本。先明确具体受众想得到的生活和难以割舍的东西，让选题、开场和关键事实接到真实的使用体验、收益与代价；保留生活细节和自然反应，不靠情绪词补救，不编客户、亲历或观众心理。"
