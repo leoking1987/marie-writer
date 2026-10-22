@@ -25,6 +25,22 @@
 
 Marie 保留空间与生活细节、自然反应和有温度的取舍；喜欢、犹豫和舍不得必须有具体对象。
 
+## 当前写作与视频流程
+
+本版本在原有 Marie 写作内核上增加了三层能力：
+
+- **Writing DNA**：按语言、结构、选题、素材、认知与视觉六个层面校准 Marie 的稳定风格。
+- **爆款标题本地化**：标题优先组合具体地点／人物、价格或结果、反差／代价和 Marie 的判断；问句只作语气。
+- **保真润色**：先锁定数字、来源、归因、条件、否定、因果、承诺和责任主体，再清理模板句、假对比和空泛升华。
+- **平台语域**：长视频、短视频、小红书、朋友圈和正式材料分别控制口语程度，不把现场叙事洗成通用情绪文案。
+
+视频脚本按内容自身结构写完后，再执行画面分析：
+
+1. 先完成并锁定完整全片逐字稿，初稿不预设 A-roll／B-roll 比例。
+2. 逐段判断该用 A-roll、B-roll、混合画面或画外旁白＋B-roll。
+3. 只对最终选择 B-roll 的片段做单独策划，对应旁白与标注版逐字一致。
+4. B-roll 不写 Marie 或其他主持人的正拍、反应、走路和讲解；主持人出现时归 A-roll。
+
 ## Marie 的声音
 
 | 维度 | 标准 |
@@ -146,8 +162,13 @@ marie-writer/
 ├── agents/
 │   └── openai.yaml
 └── references/
+    ├── broll-annotation.md
     ├── content-playbook.md
+    ├── humanization-pass.md
     ├── persona.md
+    ├── platform-register.md
+    ├── title-patterns-maggie.md
+    ├── writing-dna.md
     ├── youtube-top5/
     │   ├── 01-N9mNkgSS0tw.md
     │   ├── 02-Qa4qTxZQ7NI.md
@@ -174,6 +195,11 @@ marie-writer/
 - [`persona.md`](references/persona.md)：Marie 的人物定位、人生主线、价值观和内容母题。
 - [`voice-guide.md`](references/voice-guide.md)：口语节奏、故事方法、审美表达、锋利度和禁忌。
 - [`content-playbook.md`](references/content-playbook.md)：内容结构、标题开头、平台适配和 CTA。
+- [`writing-dna.md`](references/writing-dna.md)：Marie 的语言、结构、选题、素材、认知与视觉基线。
+- [`title-patterns-maggie.md`](references/title-patterns-maggie.md)：现场、数字、反差与代价结合 Marie 判断的标题机制。
+- [`platform-register.md`](references/platform-register.md)：长视频、短视频、小红书、朋友圈和正式内容的语域规则。
+- [`humanization-pass.md`](references/humanization-pass.md)：事实保真的去 AI 腔与改写核对。
+- [`broll-annotation.md`](references/broll-annotation.md)：先定稿、后分析画面，再单独策划 B-roll 的完整流程。
 - [`transaction-cases.md`](references/transaction-cases.md)：31 笔去地址成交价格索引、团队业绩汇总，以及五笔可按主题展开的完整交易案例。
 - [`script-angle/guide.md`](references/script-angle/guide.md)：动笔前的写法筛选、预览卡和用户选择流程；配套资料按需读取。
 
@@ -209,7 +235,7 @@ marie-writer/
 
 详细执行规则见 [`AGENTS.md`](AGENTS.md)。
 
-**最近同步：2026-10-02（观众利益与得失、逐句切入、历史本人原文校准及本地版本已同步复核）**
+**最近同步：2026-10-22（新增 Writing DNA、爆款标题本地化、平台语域、保真润色和内容优先的 A/B-roll 分析）**
 
 ## 其他智能体
 

@@ -1,4 +1,4 @@
 interface:
   display_name: "Marie Writer"
-  short_description: "以 Marie Wang 的观察和自然反应讲清观众得失，创作真实而有感受的内容"
-  default_prompt: "使用 $marie-writer 为 Marie Wang 撰写视频脚本。先明确具体受众想得到的生活和难以割舍的东西，让选题、开场和关键事实接到真实的使用体验、收益与代价；保留生活细节和自然反应，不靠情绪词补救，不编客户、亲历或观众心理。"
+  short_description: "以 Marie Wang 的观察和 Writing DNA 创作内容，并完成标题、保真润色与 B-roll 分析"
+  default_prompt: "使用 $marie-writer 为 Marie Wang 撰写视频脚本。先按内容自身结构完成并锁定完整逐字稿，再按平台语域和 Writing DNA 校准；定稿后逐段分析 A-roll 或 B-roll，只对选中的 B-roll 片段单独策划画面与对应旁白。不要预设文章结构或 A/B 比例，不编客户、亲历、对白或现场细节。"
